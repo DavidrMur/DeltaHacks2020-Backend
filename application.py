@@ -19,7 +19,8 @@ class HelloWorld(Resource):
 
 class Multi(Resource):
     def get(self, location):
-        curr_location = "1280 Main Street West"
+        curr_location = location.replace('-',' ')
+        print(curr_location)
         return self.activities(curr_location)
 
 
