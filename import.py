@@ -5,7 +5,8 @@ import requests
 
 curr_location = "1280 Main Street West"
 
-gmaps = googlemaps.Client(key='AIzaSyB5K6L8Bp7af50Dey4Kg0plFnJDvgWyciU')  # Authentication Information
+# Todo: import api key from hidden file
+gmaps = googlemaps.Client(key='XXXXXX')  # Authentication Information
 
 
 # Takes in a google maps geocode, outputs the latitude and longitude
